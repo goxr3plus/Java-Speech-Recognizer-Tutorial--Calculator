@@ -1,0 +1,11 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar 
+ */
+
+grammar grammar;
+
+public <numbers> = (one | two | three| four| five | six | seven | eight | nine | ten);
+public <action>  = (plus | minus | multiply | division);
+public <final>   = (show result);
