@@ -7,3 +7,6 @@ In part 2 we implement a calculator witch recognizes what you are saying for exa
 In part 3 the calculator get's more advanced and is recognizing numbers from 1 to 20,instead of only printing the result it is also saying it loud.I am talking about text to speech library used which is MaryTTS.
 
 I hope you enjoy these tutorials and actually you can watch the youtube videos about them below:
+
+
+[![Java Speech Recognition](http://img.youtube.com/vi/R8vsXKFTee0/0.jpg)](https://www.youtube.com/watch?v=R8vsXKFTee0)
