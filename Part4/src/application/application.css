@@ -1,0 +1,22 @@
+/*******************************************************************************
+
+* 						Button                                      *
+
+******************************************************************************/
+
+ .button {
+ 	-fx-background-color:  linear-gradient(#38424b 0.0%, #1f2429 20.0%, #191d22 100.0%);  
+ 	-fx-background-radius: 5.0;
+    -fx-text-fill: white;  
+    /*-fx-effect: dropshadow( three-pass-box , rgba(0.0,0.0,0.0,0.6) , 5.0, 0.0 , 0.0 , 1.0 );*/
+    -fx-font-size: 13.0px;
+ }
+ 
+ .button:hover{
+ 	-fx-background-color:rgb(255.0,119.0,0.0,0.7);
+    /*-fx-background-color: 
+        linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #a34313 0.0%, #903b12 100.0%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50.0% 50.0%, radius 100.0%, #ea7f4b, #c54e2c);*/
+ }
