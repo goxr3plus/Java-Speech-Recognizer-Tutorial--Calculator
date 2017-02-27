@@ -15,5 +15,4 @@ I hope you enjoy these tutorials and actually you can watch the youtube videos a
 #=Small Tutorial for Sphinx4 [ See the videos for more ]
 
 ![Java Speech Recognition](https://github.com/goxr3plus/Java-Speech-Recognizer-Tutorial--Calculator/blob/master/ScreenShot10312.png)
-
 ![Java Speech Recognition](https://github.com/goxr3plus/Java-Speech-Recognizer-Tutorial--Calculator/blob/master/ScreenShot43302.png)
