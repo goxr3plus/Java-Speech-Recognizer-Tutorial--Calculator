@@ -1,14 +1,14 @@
 # Check this
 
-Here you will find 4 Parts [Folders] , each folder represents a different tutorial - video that i have uploaded on github ... so feel free to start with Part 1 and reach Part 4 which also contains JavaFX code :)
+Here you will find 4 Tutorials [Folders] , each folder represents a different tutorial - video that i have uploaded on github ... so feel free to start with Tutorial 1 and reach Tutorial 4 which also contains JavaFX code :)
 
 # About
 
 Follow this awesome tutorials to learn how to implement a speech recognizer in Java step by step using Sphinx4.
 
-In part 2 we implement a calculator witch recognizes what you are saying for example (2+2) and it prints a result.
+In Tutorial 2 we implement a calculator witch recognizes what you are saying for example (2+2) and it prints a result.
 
-In part 3 the calculator get's more advanced and is recognizing numbers from 1 to 20,instead of only printing the result it is also saying it loud.I am talking about text to speech library used which is MaryTTS.
+In Tutorial 3 the calculator get's more advanced and is recognizing numbers from 1 to 20,instead of only printing the result it is also saying it loud.I am talking about text to speech library used which is MaryTTS.
 
 I hope you enjoy these tutorials and actually you can watch the youtube videos about them below:
 
