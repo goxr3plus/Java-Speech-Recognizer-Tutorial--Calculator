@@ -16,10 +16,13 @@ I hope you enjoy these tutorials and actually you can watch the youtube videos a
 https://www.youtube.com/watch?v=R8vsXKFTee0&index=8&list=PL-xqaiRUr_iRxKrQvFMmOsvWkhxea9EpX
 
 # Gettings Started
-[![Java Speech Recognition2](http://img.youtube.com/vi/R8vsXKFTee0/0.jpg)](https://www.youtube.com/watch?v=R8vsXKFTee0)
+[![Java Speech Recognition](http://img.youtube.com/vi/R8vsXKFTee0/0.jpg)](https://www.youtube.com/watch?v=R8vsXKFTee0)
+
+# Update for Tutorial 1
+[![Java Speech Recognition](http://img.youtube.com/vi/QfSIZzyZ_jc/0.jpg)](https://www.youtube.com/watch?v=QfSIZzyZ_jc)
 
 # Adding another languages
-[![Java Speech Recognition3](http://img.youtube.com/vi/7EGveeafVEw/0.jpg)](https://www.youtube.com/watch?v=7EGveeafVEw)
+[![Java Speech Recognition](http://img.youtube.com/vi/7EGveeafVEw/0.jpg)](https://www.youtube.com/watch?v=7EGveeafVEw)
 
 
 #=Small Tutorial for Sphinx4 [ See the videos for more ]
