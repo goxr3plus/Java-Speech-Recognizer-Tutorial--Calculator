@@ -1,0 +1,7 @@
+-lowerf 130
+-upperf 6800
+-nfilt 40
+-feat 1s_c_d_dd
+-agc none
+-cmn current
+-varnorm no
