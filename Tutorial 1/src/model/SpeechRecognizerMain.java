@@ -1,4 +1,3 @@
-package application;
 
 import java.io.IOException;
 import java.util.List;
@@ -14,10 +13,8 @@ import edu.cmu.sphinx.api.Configuration;
 import edu.cmu.sphinx.api.LiveSpeechRecognizer;
 import edu.cmu.sphinx.api.SpeechResult;
 import edu.cmu.sphinx.result.WordResult;
-import javafx.application.Platform;
-import javafx.beans.property.SimpleBooleanProperty;
 
-public class SpeechRecognizer {
+public class SpeechRecognizerMain {
 	
 	// Necessary
 	private LiveSpeechRecognizer recognizer;
@@ -39,12 +36,12 @@ public class SpeechRecognizer {
 	 * Check this link for more information: <a href=
 	 * "https://sourceforge.net/p/cmusphinx/discussion/sphinx4/thread/3875fc39/">https://sourceforge.net/p/cmusphinx/discussion/sphinx4/thread/3875fc39/</a>
 	 */
-	private SimpleBooleanProperty ignoreSpeechRecognitionResults = new SimpleBooleanProperty(false);
+	private boolean ignoreSpeechRecognitionResults = false;
 	
 	/**
 	 * Checks if the speech recognise is already running
 	 */
-	private SimpleBooleanProperty speechRecognizerThreadRunning = new SimpleBooleanProperty(false);
+	private boolean speechRecognizerThreadRunning = false;
 	
 	/**
 	 * Checks if the resources Thread is already running
@@ -63,7 +60,7 @@ public class SpeechRecognizer {
 	/**
 	 * Constructor
 	 */
-	public SpeechRecognizer() {
+	public SpeechRecognizerMain() {
 		
 		// Loading Message
 		logger.log(Level.INFO, "Loading Speech Recognizer...\n");
@@ -101,8 +98,10 @@ public class SpeechRecognizer {
 		// Start recognition process pruning previously cached data.
 		// recognizer.startRecognition(true);
 		
-		//Check if resources available
+		//Check if needed resources are available
 		startResourcesThread();
+		//Start speech recognition thread
+		startSpeechRecognition();
 	}
 	
 	//-----------------------------------------------------------------------------------------------
@@ -113,17 +112,15 @@ public class SpeechRecognizer {
 	public synchronized void startSpeechRecognition() {
 		
 		//Check lock
-		if (speechRecognizerThreadRunning.get())
+		if (speechRecognizerThreadRunning)
 			logger.log(Level.INFO, "Speech Recognition Thread already running...\n");
 		else
 			//Submit to ExecutorService
 			eventsExecutorService.submit(() -> {
 				
 				//locks
-				Platform.runLater(() -> {
-					speechRecognizerThreadRunning.set(true);
-					ignoreSpeechRecognitionResults.set(false);
-				});
+				speechRecognizerThreadRunning = true;
+				ignoreSpeechRecognitionResults = false;
 				
 				//Start Recognition
 				recognizer.startRecognition(true);
@@ -132,14 +129,14 @@ public class SpeechRecognizer {
 				logger.log(Level.INFO, "You can start to speak...\n");
 				
 				try {
-					while (speechRecognizerThreadRunning.get()) {
+					while (speechRecognizerThreadRunning) {
 						/*
 						 * This method will return when the end of speech is reached. Note that the end pointer will determine the end of speech.
 						 */
 						SpeechResult speechResult = recognizer.getResult();
 						
 						//Check if we ignore the speech recognition results
-						if (!ignoreSpeechRecognitionResults.get()) {
+						if (!ignoreSpeechRecognitionResults) {
 							
 							//Check the result
 							if (speechResult == null)
@@ -162,7 +159,7 @@ public class SpeechRecognizer {
 					}
 				} catch (Exception ex) {
 					logger.log(Level.WARNING, null, ex);
-					Platform.runLater(() -> speechRecognizerThreadRunning.set(false));
+					speechRecognizerThreadRunning = false;
 				}
 				
 				logger.log(Level.INFO, "SpeechThread has exited...");
@@ -176,7 +173,7 @@ public class SpeechRecognizer {
 	public synchronized void stopIgnoreSpeechRecognitionResults() {
 		
 		//Stop ignoring speech recognition results
-		Platform.runLater(() -> ignoreSpeechRecognitionResults.set(false));
+		ignoreSpeechRecognitionResults = false;
 	}
 	
 	/**
@@ -185,7 +182,7 @@ public class SpeechRecognizer {
 	public synchronized void ignoreSpeechRecognitionResults() {
 		
 		//Instead of stopping the speech recognition we are ignoring it's results
-		Platform.runLater(() -> ignoreSpeechRecognitionResults.set(true));
+		ignoreSpeechRecognitionResults = true;
 		
 	}
 	
@@ -236,12 +233,20 @@ public class SpeechRecognizer {
 		
 	}
 	
-	public SimpleBooleanProperty ignoreSpeechRecognitionResultsProperty() {
+	public boolean getIgnoreSpeechRecognitionResults() {
 		return ignoreSpeechRecognitionResults;
 	}
 	
-	public SimpleBooleanProperty speechRecognizerThreadRunningProperty() {
+	public boolean getSpeechRecognizerThreadRunning() {
 		return speechRecognizerThreadRunning;
 	}
 	
+	/**
+	 * Main Method
+	 * 
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		new SpeechRecognizerMain();
+	}
 }
