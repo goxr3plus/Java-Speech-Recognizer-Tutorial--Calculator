@@ -1,6 +1,6 @@
 # Have a look at this library also 
 
-[JSFG-Grammar-Rules-Parser-Library-for-Sphinx4-5](https://github.com/goxr3plus/JSFG-Grammar-Rules-Parser-Library-for-Sphinx4-5/blob/master/src/tester/JSGFGrammarParserTester.java)
+[JSFG-Grammar-Rules-Parser-Library-for-Sphinx4-5](https://github.com/goxr3plus/JSFG-Grammar-Rules-Parser-Library-for-Sphinx4-5)
 
 # Genereal Description
 
