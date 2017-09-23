@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import javafx.beans.binding.Bindings;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
@@ -66,7 +67,7 @@ public class MainInterfaceController extends BorderPane {
 		start.disableProperty().bind(speechRecognition.speechRecognizerThreadRunningProperty());
 		start.setOnAction(a -> {
 			statusLabel.setText("Status : [Running]");
-			infoArea.appendText("Starting Speech Recognizer\n");
+			//infoArea.appendText("Starting Speech Recognizer\n");
 			speechRecognition.startSpeechRecognition();
 		});
 		
@@ -74,7 +75,7 @@ public class MainInterfaceController extends BorderPane {
 		pause.disableProperty().bind(speechRecognition.ignoreSpeechRecognitionResultsProperty().or(start.disabledProperty().not()));
 		pause.setOnAction(a -> {
 			statusLabel.setText("Status : [Paused]");
-			infoArea.appendText("Pausing Speech Recognizer\n");
+			//infoArea.appendText("Pausing Speech Recognizer\n");
 			speechRecognition.ignoreSpeechRecognitionResults();
 		});
 		
@@ -82,9 +83,13 @@ public class MainInterfaceController extends BorderPane {
 		resume.disableProperty().bind(speechRecognition.ignoreSpeechRecognitionResultsProperty().not());
 		resume.setOnAction(a -> {
 			statusLabel.setText("Status : [Running]");
-			infoArea.appendText("Resuming Speech Recognizer\n");
+			//infoArea.appendText("Resuming Speech Recognizer\n");
 			speechRecognition.stopIgnoreSpeechRecognitionResults();
 		});
+		
+		//Bind the SpeechRecognitionText to InfoArea
+		infoArea.textProperty().bind(Bindings.createStringBinding(() -> infoArea.getText() + " \n " + speechRecognition.getSpeechRecognitionResultProperty().get(),
+				speechRecognition.getSpeechRecognitionResultProperty()));
 		
 	}
 }

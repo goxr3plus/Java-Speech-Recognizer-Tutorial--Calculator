@@ -16,6 +16,8 @@ import edu.cmu.sphinx.api.SpeechResult;
 import edu.cmu.sphinx.result.WordResult;
 import javafx.application.Platform;
 import javafx.beans.property.SimpleBooleanProperty;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 
 public class SpeechRecognizer {
 	
@@ -29,6 +31,11 @@ public class SpeechRecognizer {
 	 * This String contains the Result that is coming back from SpeechRecognizer
 	 */
 	private String speechRecognitionResult;
+	
+	/**
+	 * A simple property to bind the current SpeechRecognitionResult
+	 */
+	private StringProperty speechRecognitionResultProperty = new SimpleStringProperty("");
 	
 	//-----------------Lock Variables-----------------------------
 	
@@ -152,6 +159,8 @@ public class SpeechRecognizer {
 								//You said?
 								System.out.println("You said: [" + speechRecognitionResult + "]\n");
 								
+								Platform.runLater(() -> speechRecognitionResultProperty.set(speechRecognitionResult));
+								
 								//Call the appropriate method 
 								makeDecision(speechRecognitionResult, speechResult.getWords());
 								
@@ -242,6 +251,13 @@ public class SpeechRecognizer {
 	
 	public SimpleBooleanProperty speechRecognizerThreadRunningProperty() {
 		return speechRecognizerThreadRunning;
+	}
+	
+	/**
+	 * @return the speechRecognitionResultProperty
+	 */
+	public StringProperty getSpeechRecognitionResultProperty() {
+		return speechRecognitionResultProperty;
 	}
 	
 }

@@ -1,3 +1,7 @@
+#Announcement , Now i more focused on Google Speech Recognition ->
+
+https://github.com/goxr3plus/Java-Google-Speech-Recognizer
+
 # Have a look at this library also 
 
 [JSFG-Grammar-Rules-Parser-Library-for-Sphinx4-5](https://github.com/goxr3plus/JSFG-Grammar-Rules-Parser-Library-for-Sphinx4-5)

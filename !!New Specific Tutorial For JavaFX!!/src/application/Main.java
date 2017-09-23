@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 	
-	MainInterfaceController mainInterface = new MainInterfaceController();
+	public MainInterfaceController mainInterface = new MainInterfaceController();
 	
 	/**
 	 * The main window of the application
