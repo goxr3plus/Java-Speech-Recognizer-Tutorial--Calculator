@@ -6,7 +6,7 @@ https://github.com/goxr3plus/Java-Google-Speech-Recognizer
 
 [JSFG-Grammar-Rules-Parser-Library-for-Sphinx4-5](https://github.com/goxr3plus/JSFG-Grammar-Rules-Parser-Library-for-Sphinx4-5)
 
-# Genereal Description
+# General Description
 
 Here you will find 4 Tutorials [Folders] , each folder represents a different tutorial - video that i have uploaded on github ... so feel free to start with Tutorial 1 and reach Tutorial 4 which also contains JavaFX code :)
 
@@ -26,8 +26,8 @@ https://www.youtube.com/watch?v=R8vsXKFTee0&index=8&list=PL-xqaiRUr_iRxKrQvFMmOs
 # Gettings Started
 [![Java Speech Recognition](http://img.youtube.com/vi/R8vsXKFTee0/0.jpg)](https://www.youtube.com/watch?v=R8vsXKFTee0)
 
-# Update for Tutorial 1
-[![Java Speech Recognition](http://img.youtube.com/vi/QfSIZzyZ_jc/0.jpg)](https://www.youtube.com/watch?v=QfSIZzyZ_jc)
+# Update for Tutorial 1 September 2017 with Github Packages
+[![Java Speech Recognition](http://img.youtube.com/vi/NwnGJD6OWWQ/0.jpg)](https://www.youtube.com/watch?v=NwnGJD6OWWQ)
 
 # Adding another languages
 [![Java Speech Recognition](http://img.youtube.com/vi/7EGveeafVEw/0.jpg)](https://www.youtube.com/watch?v=7EGveeafVEw)
