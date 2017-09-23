@@ -1,4 +1,4 @@
-#Announcement , Now i more focused on Google Speech Recognition ->
+# Announcement , Now i more focused on Google Speech Recognition ->
 
 https://github.com/goxr3plus/Java-Google-Speech-Recognizer
 
