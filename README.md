@@ -2,7 +2,7 @@
 
 https://github.com/goxr3plus/Java-Google-Speech-Recognizer
 
-# Have a look at this library also 
+## In case you want to parse Sphinx4-5 Grammar Files check this Library!! 
 
 [JSFG-Grammar-Rules-Parser-Library-for-Sphinx4-5](https://github.com/goxr3plus/JSFG-Grammar-Rules-Parser-Library-for-Sphinx4-5)
 
