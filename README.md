@@ -1,3 +1,5 @@
+### PS Java 1.8.0_141 ++ Required ! Download Java 8 here : ( https://www.java.com/en/ )
+
 # Announcement , Now i more focused on Google Speech Recognition ->
 
 https://github.com/goxr3plus/Java-Google-Speech-Recognizer
