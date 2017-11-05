@@ -11,7 +11,7 @@ Follow this awesome tutorials to learn how to implement a speech recognizer in J
 
 
 
-### -- FOLDERS EXPLANATION -- (PLEASE READ THIS) 
+### ------------------------ FOLDERS EXPLANATION ------------------------ 
 
 #### ------>Calculator Program Tutorials
 
