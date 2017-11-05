@@ -1,9 +1,9 @@
 
 > PS Java 1.8.0_64 ++ Required ! Download Java 8 here : ( https://www.java.com/en/ )
 
-> Announcement , Now i more focused on Google Speech Recognition -> [github repository here](https://github.com/goxr3plus/Java-Google-Speech-Recognizer)
+> Announcement , Now i more focused on Google Speech Recognition : [github repository here](https://github.com/goxr3plus/Java-Google-Speech-Recognizer)
 
-> In case you want to parse Sphinx4-5 Grammar Files check this Library!!  [JSFG-Grammar-Rules-Parser-Library-for-Sphinx4-5](https://github.com/goxr3plus/JSFG-Grammar-Rules-Parser-Library-for-Sphinx4-5)
+> In case you want to parse Sphinx4-5 Grammar Files check this Library :  [JSFG-Grammar-Rules-Parser-Library-for-Sphinx4-5](https://github.com/goxr3plus/JSFG-Grammar-Rules-Parser-Library-for-Sphinx4-5)
 
 # Java-Speech-Recognizer-Tutorial--Calculator
 
