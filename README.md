@@ -24,7 +24,6 @@ This folder contains the first basic tutorial which contains a general class on 
 > Update for Tutorial 1 September 2017 with Github Packages
 [![Java Speech Recognition](http://img.youtube.com/vi/NwnGJD6OWWQ/0.jpg)](https://www.youtube.com/watch?v=NwnGJD6OWWQ)
 
-
 - [x] Folder Name : **Tutorial2**
 
 This folder contains the first code for making the Speech Calculator vary basic.
@@ -53,7 +52,11 @@ Contains **Tutorial1** folder code , and packages for Hindi Language Speech Reco
 
 - [x] Folder Name : **!!New Specific Tutorial For JavaFX!!**
 
-This folder contains the same code as **Tutorial1** though it is better created for JavaFX Programs.
+This folder contains the same code as **Tutorial1** + it is a JavaFX Application with User Interface .
+
+> Youtube Tutorial for JavaFX Speech Recognition Program + Sphinx4-5
+
+[![Java Speech Recognition](http://img.youtube.com/vi/q19_3i4Z_Cs/0.jpg)](https://www.youtube.com/watch?v=q19_3i4Z_Cs)
 
 ---
 
