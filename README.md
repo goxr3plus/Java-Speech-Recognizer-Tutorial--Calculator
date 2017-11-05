@@ -1,16 +1,19 @@
 
 > PS Java 1.8.0_64 ++ Required ! Download Java 8 here : ( https://www.java.com/en/ )
+
 > Announcement , Now i more focused on Google Speech Recognition -> [github repository here](https://github.com/goxr3plus/Java-Google-Speech-Recognizer)
+
+> In case you want to parse Sphinx4-5 Grammar Files check this Library!!  [JSFG-Grammar-Rules-Parser-Library-for-Sphinx4-5](https://github.com/goxr3plus/JSFG-Grammar-Rules-Parser-Library-for-Sphinx4-5)
 
 # Java-Speech-Recognizer-Tutorial--Calculator
 
 Follow this awesome tutorials to learn how to implement a speech recognizer in Java step by step using Sphinx4-5.
 
----
 
-# -- FOLDERS EXPLANATION -- (PLEASE READ THIS) 
 
-#### Calculator Program Tutorials
+### -- FOLDERS EXPLANATION -- (PLEASE READ THIS) 
+
+#### ------>Calculator Program Tutorials
 
 - [x] Folder Name : **Tutorial1**
 
@@ -34,7 +37,7 @@ Continuation of the calculator program.
 
 Final part of the calculator program.
 
-#### Using different Languages (Hindi , German , Italian etc)
+#### ------>Using different Languages (Hindi , German , Italian etc)
 
 --Example below--
 
@@ -46,17 +49,11 @@ Contains **Tutorial1** folder code , and packages for Hindi Language Speech Reco
 
 [![Java Speech Recognition](http://img.youtube.com/vi/7EGveeafVEw/0.jpg)](https://www.youtube.com/watch?v=7EGveeafVEw)
 
-#### Speech Recognition + JavaFX
+#### ------>Speech Recognition + JavaFX
 
 - [x] Folder Name : **!!New Specific Tutorial For JavaFX!!**
 
 This folder contains the same code as **Tutorial1** though it is better created for JavaFX Programs.
-
----
-
-## In case you want to parse Sphinx4-5 Grammar Files check this Library!! 
-
-[JSFG-Grammar-Rules-Parser-Library-for-Sphinx4-5](https://github.com/goxr3plus/JSFG-Grammar-Rules-Parser-Library-for-Sphinx4-5)
 
 ---
 
