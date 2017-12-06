@@ -13,6 +13,14 @@ Follow this awesome tutorials to learn how to implement a speech recognizer in J
 
 ### ------------------------ FOLDERS EXPLANATION ------------------------ 
 
+#### ------> All the libraries you need in order to run your programs are in the folder
+
+- [x] [!!Libraries for all the tutorials!!!](https://github.com/goxr3plus/Java-Speech-Recognizer-Tutorial--Calculator/tree/master/!!Libraries%20for%20all%20the%20tutorials!!!)
+
++ for tutorials 3 and 4 some extra libraries here
+
+- [x] [Tutorial 3,4 Plus Libraries](https://github.com/goxr3plus/Java-Speech-Recognizer-Tutorial--Calculator/tree/master/Tutorial%203%2C4%20Plus%20Libraries)
+
 #### ------>Calculator Program Tutorials
 
 - [x] Folder Name : **Tutorial1**
