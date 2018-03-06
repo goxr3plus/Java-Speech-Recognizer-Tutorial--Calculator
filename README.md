@@ -1,4 +1,15 @@
 
+Before you start with anything view these videos
+
+| About CMU Sphinx5 | Full NetBeans Tutorial |
+|:-:|:-:|
+| [![First](http://img.youtube.com/vi/uFoqXJvJZeM/0.jpg)](https://www.youtube.com/watch?v=uFoqXJvJZeM)  | [![Second](http://img.youtube.com/vi/UmU3yhbPIlI/0.jpg)](https://www.youtube.com/watch?v=UmU3yhbPIlI) |
+
+Also visit this repository -> https://github.com/goxr3plus/sphinx-5-Maven-Example
+
+--------------------------------------------------------------
+
+
 > PS Java 1.8.0_64 ++ Required ! Download Java 8 here : ( https://www.java.com/en/ )
 
 > Announcement , Now i more focused on Google Speech Recognition : [github repository here](https://github.com/goxr3plus/Java-Google-Speech-Recognizer)
