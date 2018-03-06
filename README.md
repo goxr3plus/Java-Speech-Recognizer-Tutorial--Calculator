@@ -1,5 +1,5 @@
 
-Before you start with anything view these videos
+## Before you start with anything watch these videos , hey i see you don't cheat :)
 
 | About CMU Sphinx5 | Full NetBeans Tutorial |
 |:-:|:-:|
