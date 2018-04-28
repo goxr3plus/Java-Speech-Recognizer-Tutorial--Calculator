@@ -1,4 +1,6 @@
 
+[![HitCount](http://hits.dwyl.io/goxr3plus/Java-Speech-Recognizer-Tutorial--Calculator.svg)](http://hits.dwyl.io/goxr3plus/Java-Speech-Recognizer-Tutorial--Calculator)
+
 ## Before you start with anything watch these videos , hey i see you don't cheat :)
 
 | About CMU Sphinx5 | Full NetBeans Tutorial |
