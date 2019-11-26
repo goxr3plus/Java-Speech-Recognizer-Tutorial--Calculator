@@ -1,11 +1,20 @@
+---
+
+<h3 align="center" > Java Google Speech Api ( Library )</h3>
+<p align="center">
+🎤
+</p>
+<p align="center">
+<sup>
+  <b> Java + <a href="https://cmusphinx.github.io/wiki/tutorialsphinx4/#overview" target="_black"> Sphinx 5</a> Tutorials </b>
+</sup>
+</p>
+
+---
 
 [![HitCount](http://hits.dwyl.io/goxr3plus/Java-Speech-Recognizer-Tutorial--Calculator.svg)](http://hits.dwyl.io/goxr3plus/Java-Speech-Recognizer-Tutorial--Calculator)
-
-### Keep the bro alive :)
-
 <a href="https://patreon.com/preview/8adae1b75d654b2899e04a9e1111f0eb" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a>
 <a href="https://www.paypal.me/GOXR3PLUSCOMPANY" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="PayPal donate button" /></a>
-
 
 ## Before you start with anything watch these videos , hey i see you don't cheat :)
 
