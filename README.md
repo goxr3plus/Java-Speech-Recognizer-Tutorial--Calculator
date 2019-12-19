@@ -18,7 +18,7 @@
 
 ## Before you start with anything watch these videos , hey i see you don't cheat :)
 
-| About CMU Sphinx5 | Full NetBeans Tutorial |
+| About CMU Sphinx5 | Full NetBeans Tutorial |  
 |:-:|:-:|
 | [![First](http://img.youtube.com/vi/uFoqXJvJZeM/0.jpg)](https://www.youtube.com/watch?v=uFoqXJvJZeM)  | [![Second](http://img.youtube.com/vi/UmU3yhbPIlI/0.jpg)](https://www.youtube.com/watch?v=UmU3yhbPIlI) |
 
